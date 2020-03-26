@@ -1,0 +1,18 @@
+addEventListener: This method attaches an event handler to the specifed element.
+Advantage of using this is it will not override the existing element.
+
+
+
+document.getElementById("myBtn").addEventListener("click", myFunction,useCapture);
+
+useCapture: when to use ?
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+
+
+
+preventDefault() : this is an event method which prevents the default behaviour of submiting the form.
+It is sometimes useful because it refreshes after submit is clicked.
+The form submits bydefault when clicked.
