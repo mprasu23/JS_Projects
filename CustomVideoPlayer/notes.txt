@@ -1,0 +1,2 @@
+This is bases on Video APi fo HTML5
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Video_and_audio_APIs
