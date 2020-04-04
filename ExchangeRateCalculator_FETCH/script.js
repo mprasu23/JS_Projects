@@ -24,9 +24,6 @@ function calculate() {
 	const currency_1_value = currency_1.value;
 	const currency_2_value = currency_2.value;
 
-	console.log(currency_2_value);
-	console.log(currency_1_value);
-
 	fetch(`https://api.exchangerate-api.com/v4/latest/${currency_1_value}`)
 		.then(res => res.json())
 		.then(data => {
